@@ -1,0 +1,20 @@
+{
+    "name": "meneguite/symfony-console",
+    "description": "Learning Symfony Console Package",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ronaldo Meneguite",
+            "email": "ronaldo@fireguard.com.br"
+        }
+    ],
+    "require": {
+        "symfony/console": "^3.2"
+    },
+    "autoload": {
+      "psr-4": {
+        "": "src/"
+      }
+    }
+}
