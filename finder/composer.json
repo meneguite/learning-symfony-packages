@@ -1,0 +1,20 @@
+{
+    "name": "meneguite/symfony-finder",
+    "description": "Learning Symfony Finder Package",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ronaldo Meneguite",
+            "email": "ronaldo@fireguard.com.br"
+        }
+    ],
+    "require": {
+        "symfony/finder": "^3.2"
+    },
+    "autoload": {
+      "psr-4": {
+        "": "src/"
+      }
+    }
+}
