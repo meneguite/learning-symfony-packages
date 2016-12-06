@@ -1,0 +1,20 @@
+{
+    "name": "meneguite/symfony-var-dumper",
+    "description": "Learning Symfony VarDumper Package",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ronaldo Meneguite",
+            "email": "ronaldo@fireguard.com.br"
+        }
+    ],
+    "require": {
+        "symfony/var-dumper": "^3.2"
+    },
+    "autoload": {
+      "psr-4": {
+        "": "src/"
+      }
+    }
+}
